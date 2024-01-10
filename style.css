@@ -1,0 +1,42 @@
+/* style.css */
+/*
+Theme Name: Company Profile
+Author: Yopi Adi Purnomo
+Description: Company profile Test Landing Page
+Version: 1.0
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Add theme screenshot */
+.theme-screenshot {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+<img src="<?php echo get_template_directory_uri(); ?>/screenshot.png" class="theme-screenshot" alt="Theme Screenshot">
